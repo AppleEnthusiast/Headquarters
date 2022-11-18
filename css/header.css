@@ -1,0 +1,45 @@
+header {
+ padding: 30px 0;
+ min-height: 70px;
+ color: rgb(148, 255, 255);
+ background-color: #35424a;
+ border-bottom: 3px solid #f15025;
+ display: flex;
+}
+
+header .container {
+ display: flex;
+ justify-content: space-between;
+}
+
+#branding {
+ display: flex;
+}
+
+
+#branding img {
+ width: 100px;
+ margin-right: 60px;
+}
+
+#branding h1 {
+ margin-top: 15px;
+ font-family: 'Lobster', cursive;
+ letter-spacing: .3em;
+}
+
+header nav ul li {
+ display: inline;
+ padding-left: 30px;
+ font-size: 15px;
+}
+
+header nav ul li a {
+ color: rgb(148, 255, 255);
+ text-decoration: none;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ word-spacing: -2px;
+ font-size: 14px;
+}
+
